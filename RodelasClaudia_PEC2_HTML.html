@@ -206,47 +206,7 @@
 
 		<h5>2.3.2.1.a. Aceleración sísmica de cálculo</h5>
 
-			<p>La peligrosidad sísmica en España se define por medio del mapa de peligrosidad sísmica de la NCSE02 o del listado por municipios del Anejo 1 de dicho documento. Es importante indicar que la NCSE02 solo permite que los edificios se comporten en régimen elástico. Por lo tanto, no considera el comportamiento no lineal de los edificios a la hora de analizar el daño sísmico posible.</p>
-			<p>La aceleración sísmica de cálculo (ac) se obtiene por medio de la <a href="#ec1">Ec. (1)</a> y se emplea para la determinación del espectro de respuesta elástico.</p>
-			<table id="ec1" class="tablaEc">
-				<tr>
-					<td>ac= S·ρ·ab</td>
-					<td class="ecIdentificacion">Ec. (1)</td>
-				</tr>
-			</table>
-
-			<em class="formulas"><p>Donde:</p>
-			<p >ab&#9;es la aceleración sísmica básica definida en el mapa de &#9;peligrosidad en el Anejo 1. </p>
-			<p >ρ&#9;es un coeficiente adimensional de riesgo con valor 1 para &#9;construcciones de importancia normal y 1,3 para &#9;construcciones de importancia especial.</p>
-			<p>S&#9;es el coeficiente de amplificación del terreno que tiene en &#9;cuenta la diferencia de la aceleración sísmica en superficie &#9;respecto a la de suelo duro, es importante indicar que los &#9;valores de ab se asocian a un terreno duro, aproximadamente, tipo II.</p></em>
-			<table class="tablaFormulas">
-				<tr>
-					<td> Para ρ · ab ≤ 0,1g </td>
-					<td> S = C/1,25 </td>
-				</tr>
-				<tr>
-					<td> Para 0,1g &lt; ρ · ab &lt; 0,4 g </td>
-					<td> S= C/1,25+3,33·(ρ·a_b/1,25-0,1)(1-C/1,25) </td>
-				</tr>
-				<tr>
-					<td> Para 0,4 g ≤ ρ · ab </td>
-					<td> S=1,0 </td>
-				</tr>
-			</table>
-			<em class="formulas"> <p>Siendo:</p>
-			<p>C &#9;coeficiente del terreno, dependiente de las características &#9;geotécnicas del terreno de cimentación. Su valor se resume &#9;en la <a href="#Tabla2">Tabla 2</a>.</p></em>
-
-			<figcaption class="cabtabla">Tabla 2 Clasificación y coeficiente del terreno.</figcaption>
-			<table id="Tabla2" class="tablaGenerica">
-				<tr>
-					<th> TIPO TERRENO </th>
-					<th> VS (M/S) </th>
-					<th> COEF. C </th>
-					<th> DESCRIPCIÓN </th>
-				</tr>
-				<tr>
-					<td> I </td>
-					<td>&gt;750 </td>
+	
 					<td> 1,0 </td>
 					<td> Roca compacta, suelo cementado o granular muy denso. </td>
 				</tr>
