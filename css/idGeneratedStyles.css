@@ -22,13 +22,11 @@ body {
 	text-align: left;
 }
 
-.tablaEc {
-	border-collapse: collapse;
-	font-family: "Cambria Math", serif;
-	font-size: 15px;
-	margin-left: auto;
-	margin-right: auto;
+.tablaGenerica .colTexto {
+	width: 60%; 
+	vertical-align:top
 }
+
 
 .tablaEc td {
 	padding: 15px;
@@ -40,8 +38,7 @@ body {
 	width: 10%;
 }
 
-.tablaFormulas {
-	border-collapse: collapse;
+.tablaFormulas, .tablaAbrev, .tablaEc  {
 	font-family: "Cambria Math", serif;
 	font-size: 15px;
 	margin-left: auto;
@@ -51,6 +48,12 @@ body {
 .tablaFormulas td {
 	padding: 15px;
 }
+
+.tablaAbrev {
+	width: 50%;
+}
+
+
 
 figure {
 	text-align: center;
