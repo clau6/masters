@@ -247,9 +247,17 @@
 					<td> S=1,0 </td>
 				</tr>
 			</table>
-			<em class="formulas"> <p>Siendo:</p>
-			<p>C &#9;coeficiente del terreno, dependiente de las características &#9;geotécnicas del terreno de cimentación. Su valor se resume &#9;en la <a href="#Tabla2">Tabla 2</a>.</p></em>
-
+		
+			<table class="tablaAbrev">
+				<tr>
+					<th>Siendo:</th>
+				</tr>				
+				<tr>
+					<td>C</td>
+					<td>coeficiente del terreno, dependiente de las características geotécnicas del terreno de cimentación. Su valor se resume en la <a href="#Tabla2">Tabla 2</a>.</td>
+				</tr>					
+			</table>
+		
 			<figcaption class="cabtabla">Tabla 2 Clasificación y coeficiente del terreno.</figcaption>
 			<table id="Tabla2" class="tablaGenerica">
 				<tr>
@@ -365,17 +373,37 @@
 				</tr>
 			</table>
 
-			<em class="formulas"><p>Siendo:</p> 
-			<p >α(T)&#9;Valor del espectro normalizado de respuesta elástica.</p>
-			<p >T&#9;Período propio del oscilador en segundos.</p>
-			<p >K&#9;Coeficiente de contribución. Este tiene en cuenta la influencia de los distintos tipos de terremotos esperados en la peligrosidad sísmica de cada punto. </p>
-			<p >C&#9;Coeficiente del terreno.</p>
-			<p >TA,TB  Períodos característicos del espectro de respuesta, de valor:</p>
-			<p >&#9;TA = K·C/10 y TB = K·C/2,5.</p></em>
-
-
-
-				<figure>
+		<table class="tablaAbrev">
+				<tr>
+					<th>Siendo:</th>
+				</tr>				
+				<tr>
+					<td>α(T)</td>
+					<td>Valor del espectro normalizado de respuesta elástica.</td>
+				</tr>				
+				<tr>
+					<td>T</td>
+					<td>Período propio del oscilador en segundos.</td>
+				</tr>				
+				<tr>
+					<td>K</td>
+					<td>Coeficiente de contribución. Este tiene en cuenta la influencia de los distintos tipos de terremotos esperados en la peligrosidad sísmica de cada punto.</td>
+				</tr>	
+				<tr>
+					<td>C</td>
+					<td>Coeficiente del terreno.</td>
+				</tr>
+				<tr>
+					<td>TA, TB</td>
+					<td>Períodos característicos del espectro de respuesta, de valor:</td>
+				</tr>
+				<tr>
+					<td/>
+					<td>TA = K·C/10 y TB = K·C/2,5.</td>
+				</tr>
+			</table>
+		
+			<figure>
 					<img id="Figura3" src="image/Image_010.jpg" alt="Image010" />
 					<figcaption class="piefigura">Figura 3 Espectro de respuesta elástica para diferentes valores de C y K (NCSE-02).</figcaption>
 				</figure>
@@ -969,15 +997,43 @@
 				</tr>
 			</table>
 
-			<em class="formulas"><p>Donde:</p>
-			<p >Se (T) es el espectro de respuesta elástica.</p>
-			<p >T &#9;es el período de vibración de un sistema lineal con un grado &#9;de libertad.</p>
-			<p >ag&#9;es el valor de cálculo de la aceleración del suelo en un terreno tipo A.</p>
-			<p >TB&#9;es el límite inferior del período del tramo de aceleración &#9;espectral constante.</p>
-			<p >TC&#9;es el límite superior del período del tramo de aceleración &#9;espectral constante.</p>
-			<p >TD&#9;es el valor que define el comienzo del tramo de respuesta de &#9;desplazamiento constante del espectro.</p>
-			<p>S&#9;es el factor del suelo. </p>
-			<p>η&#9;es el coeficiente de corrección del amortiguamiento con valor de referencia η=1, para un amortiguamiento viscoso del 5%.</p></em>
+		<table class="tablaAbrev">
+				<tr>
+					<th>Donde:</th>
+				</tr>				
+				<tr>
+					<td>Se (T)</td>
+					<td>es el espectro de respuesta elástica.</td>
+				</tr>				
+				<tr>
+					<td>T</td>
+					<td>es el período de vibración de un sistema lineal con un grado de libertad.</td>
+				</tr>				
+				<tr>
+					<td>ag</td>
+					<td>es el valor de cálculo de la aceleración del suelo en un terreno tipo A.</td>
+				</tr>
+				<tr>
+					<td>TB</td>
+					<td>es el límite inferior del período del tramo de aceleración espectral constante.</td>
+				</tr>
+				<tr>
+					<td>TC</td>
+					<td>es el límite superior del período del tramo de aceleración espectral constante.</td>
+				</tr>
+				<tr>
+					<td>TD</td>
+					<td>es el valor que define el comienzo del tramo de respuesta de desplazamiento constante del espectro.</td>
+				</tr>
+				<tr>
+					<td>S</td>
+					<td>es el factor del suelo.</td>
+				</tr>
+				<tr>
+					<td>η</td>
+					<td>es el coeficiente de corrección del amortiguamiento con valor de referencia η=1, para un amortiguamiento viscoso del 5%.</td>
+				</tr>
+			</table>
 
 			<p>Los valores de los periodos TB, TC y TD así como el factor del suelo S dependen del tipo de suelo. En la <a href="#Tabla6">Tabla 6</a>, se recogen los criterios para determinar el tipo de suelo. En este caso, el EC8-1 establece 5 tipos de suelo frente a los 4 que determina la NCSE02.</p>
 
@@ -4233,24 +4289,32 @@
 		<p>Los diferentes porcentajes de aceleración espectral (%Se) (espectro de respuesta del EC8), correspondientes a los desplazamientos d*t,D asociados a un estado límite de daño dado, se obtienen a partir de las siguientes ecuaciones. </p>
 
 		<table class="tablaEc">
-				<tr>
-					<td>%S_e=(S_a^*)/(S_e (T^*))∙100</td>	
+			<tr>
+				<td>%S_e=(S_a^*)/(S_e (T^*))∙100</td>	
 
-					<td class="ecIdentificacion">Ec. (31)</td>
-				</tr>
+				<td class="ecIdentificacion">Ec. (31)</td>
+			</tr>
+			<tr>
+				<td>
+					<li>Si T*≥TC (rango de periodo medio y largo):</li>
+				</td>
+			</tr>
 		</table>
 
-		<li>Si T*≥TC (rango de periodo medio y largo):</li>
+		
 
 		<table class="tablaEc">
-				<tr>
-					<td>S_a^*=S_ea^*=d_(t,D)^*∙(2π/T^* )^2</td>	
+			<tr>
+				<td>S_a^*=S_ea^*=d_(t,D)^*∙(2π/T^* )^2</td>	
 
-					<td class="ecIdentificacion">Ec. (32)</td>
-				</tr>
+				<td class="ecIdentificacion">Ec. (32)</td>
+			</tr>
+			<tr>
+				<td>
+					<li>Si T*&lt;TC (rango de periodo corto)::</li>
+				</td>
+			</tr>
 		</table>
-
-		<li>Si T*&lt;TC (rango de periodo corto):</li>
 
 		<table class="tablaEc">
 				<tr>
@@ -5192,7 +5256,7 @@
 
 		<table id="table093" class="tablaGenerica">
 				<tr>
-					<th colspan="3"> Triangulaciones(arriostramientos) </th>
+					<th colspan="3"> TRIANGULACIONES (arriostramientos) </th>
 				</tr>
 				<tr>
 					<td rowspan="6"> Estabilidad insuficiente </td>
@@ -5255,7 +5319,7 @@
 
 		<table id="table094" class="tablaGenerica">
 				<tr>
-					<th colspan="3"> Conexiones entre elementos (reforzados y existentes) </th>
+					<th colspan="3"> CONEXIONES ENTRE ELEMENTOS (reforzados y existentes) </th>
 				</tr>
 				<tr>
 					<td rowspan="6"> Conexiones viga-pilar </td>
@@ -5670,35 +5734,31 @@
 
 		<p>Se ha realizado el proyecto de refuerzo sísmico de un colegio con estructura de muros de carga de la provincia de Huelva. Concretamente el C.E.I.P. “Los Llanos” situado en calle Los Llanos, nº 10 de la localidad de Almonte (Huelva). Destacar que es un edificio cuyo sistema estructural es de muros de carga y es uno de los edificios con el índice <i class="ing">School-score</i> más desfavorable. Además, debido a sus dimensiones (<a href="#Figura82">Figura 82</a> y <a href="#Figura83">Figura 83</a>), se adapta a las condiciones y a la escala de intervención propuesta en el proyecto. En dicho proyecto se han aplicado las técnicas de refuerzo sísmico analizadas en el estudio sobre el refuerzo sísmico de un edificio escolar de muros de carga (Segovia-Verjel et al., 2019).</p>
 
-		<figure>
-			<img id="Figura83" src="image/Image_147.gif" alt="Image147" />
-			<figcaption class="piefigura">Figura 82 Planta baja. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
-		</figure>
 
 		<p>En este caso se han aplicado dos métodos de refuerzos: la aplicación de una malla de acero en la cara exterior del muro, y el refuerzo de los huecos mediante un recercado con el aumento de la cuantía de armado de redondos de acero. </p>
 
 		<figure>
-			<img id="Figura84" src="image/Image_148.gif" alt="Image148" />
+			<img id="Figura83" src="image/Image_148.gif" alt="Image148" />
+		</figure>
+
+		<figure>
+			<img id="Figura84" src="image/Image_149.jpg" alt="Image149" />
 			<figcaption class="piefigura">Figura 84 Alzado Norte. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
 		</figure>
 
 		<figure>
-			<img id="Figura85" src="image/Image_149.jpg" alt="Image149" />
+			<img id="Figura85" src="image/Image_150.gif" alt="Image150" />
 			<figcaption class="piefigura">Figura 85 Alzado Sur. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
-		</figure>
-
-		<figure>
-			<img id="Figura86" src="image/Image_150.gif" alt="Image150" />
-			<figcaption class="piefigura">Figura 86 Alzado Este. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
 		</figure>	
 
 		<figure>
-			<img id="Figura87" src="image/Image_151.gif" alt="Image151" />
-			<figcaption class="piefigura">Figura 87 Alzado Oeste. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
+			<img id="Figura86" src="image/Image_151.gif" alt="Image151" />
+			<figcaption class="piefigura">Figura 86 Alzado Este. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
 		</figure>
 
 		<figure>
-			<img src="image/Image_152.gif" alt="Image152" />
+			<img ID="Figura87" src="image/Image_152.gif" alt="Image152" />
+			<figcaption class="piefigura">Figura 87 Alzado Oeste. C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
 		</figure>
 
 		<p>La actuación de refuerzo estructural a llevar a cabo sobre la superficie de los muros de carga fue la siguiente: </p>
@@ -5717,7 +5777,6 @@
 
 		<figure>
 			<img id="Figura88" src="image/Image_153.jpg" alt="Image153" />
-			<figcaption class="piefigura">Figura 88 Detalles constructivos. Proyecto de refuerzo sísmico del colegio C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
 		</figure>
 
 		<figure>
@@ -5726,6 +5785,7 @@
 
 		<figure>
 			<img src="image/Image_155.jpg" alt="Image155" />
+			<figcaption class="piefigura">Figura 88 Detalles constructivos. Proyecto de refuerzo sísmico del colegio C.E.I.P. Los Llanos, Almonte (Huelva).</figcaption>
 		</figure>
 
 		<h1>REFERENCIAS</h1>
