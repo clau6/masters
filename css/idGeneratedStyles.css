@@ -52,6 +52,27 @@ body {
 	padding: 15px;
 }
 
+figure {
+	text-align: center;
+}
+
+figcaption {
+	color: #44546A;
+	font-style: italic;
+	font-size: 15px;
+}
+
+.figuraConMultiImagenes table, .tablaFigura {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.figuraConMultiImagenes figcaption {
+	text-align: left;
+	display: inline-block;
+}
+
+
 table.Ningún-estilo-de-tabla {
 	border-collapse:collapse;
 	border-color:#000000;
